@@ -22,4 +22,3 @@ RUN conda install --quiet --yes pytorch torchvision -c soumith
 
 # Download repo and run package setup
 RUN pip install git+https://github.com/dvsrepo/text.git
-RUN git clone https://github.com/dvsrepo/text.git 
